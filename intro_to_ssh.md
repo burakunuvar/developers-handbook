@@ -46,7 +46,9 @@ pbcopy < ~/.ssh/id_rsa_aws.pub
 
 ```
 
-[Connecting to GitHub with SSH](https://help.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh)
+## Security best practices for GitHub
+
+- [Connecting to GitHub with SSH](https://help.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh)
 
 ```bash
 # Connect by using related private key
@@ -66,4 +68,10 @@ ssh-add -l
 ssh-add -D
 ```
 
-https://stackoverflow.com/questions/29297154/github-invalid-username-or-password
+- [Securing your account with two-factor authentication (2FA)](https://help.github.com/en/github/authenticating-to-github/securing-your-account-with-two-factor-authentication-2fa)
+
+- [Creating a personal access token for the command line](https://help.github.com/en/github/authenticating-to-github/creating-a-personal-access-token-for-the-command-line)
+
+- [Fixing Issues: invalid-username-or-password](https://stackoverflow.com/questions/29297154/github-invalid-username-or-password)
+
+
